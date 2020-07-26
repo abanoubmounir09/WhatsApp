@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2675420BAC59334F001EBFB /* Pods_Wchat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 670D5D029478B5A71214A264 /* Pods_Wchat.framework */; };
+		F2523CF924CC5BAD00FF144F /* collectionRefence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2523CF824CC5BAD00FF144F /* collectionRefence.swift */; };
+		F2523CFB24CC63FE00FF144F /* dateformatterClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2523CFA24CC63FE00FF144F /* dateformatterClass.swift */; };
+		F257000124C7423D00F7B128 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F257FFFF24C7423D00F7B128 /* Main.storyboard */; };
+		F257000324C7423F00F7B128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F257000224C7423F00F7B128 /* Assets.xcassets */; };
+		F257000624C7423F00F7B128 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F257000424C7423F00F7B128 /* LaunchScreen.storyboard */; };
+		F257000E24C7425400F7B128 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F257000D24C7425400F7B128 /* GoogleService-Info.plist */; };
+		F257969F24C813AA00BAB9D5 /* FUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F257969E24C813AA00BAB9D5 /* FUser.swift */; };
+		F25796A124C8157C00BAB9D5 /* Constatns.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25796A024C8157C00BAB9D5 /* Constatns.swift */; };
+		F257FFFA24C7423D00F7B128 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F257FFF924C7423D00F7B128 /* AppDelegate.swift */; };
+		F257FFFC24C7423D00F7B128 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F257FFFB24C7423D00F7B128 /* SceneDelegate.swift */; };
+		F257FFFE24C7423D00F7B128 /* WelcomVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F257FFFD24C7423D00F7B128 /* WelcomVC.swift */; };
+		F25AA3D824CD89DE00D78C4B /* Alertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25AA3D724CD89DE00D78C4B /* Alertable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		670D5D029478B5A71214A264 /* Pods_Wchat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wchat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E99772CED074F07B78D3E39 /* Pods-Wchat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wchat.release.xcconfig"; path = "Target Support Files/Pods-Wchat/Pods-Wchat.release.xcconfig"; sourceTree = "<group>"; };
+		D0E56FC1D9B3872D48F9795C /* Pods-Wchat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wchat.debug.xcconfig"; path = "Target Support Files/Pods-Wchat/Pods-Wchat.debug.xcconfig"; sourceTree = "<group>"; };
+		F2523CF824CC5BAD00FF144F /* collectionRefence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionRefence.swift; sourceTree = "<group>"; };
+		F2523CFA24CC63FE00FF144F /* dateformatterClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateformatterClass.swift; sourceTree = "<group>"; };
+		F257000024C7423D00F7B128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F257000224C7423F00F7B128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F257000524C7423F00F7B128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F257000724C7423F00F7B128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F257000D24C7425400F7B128 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F257969E24C813AA00BAB9D5 /* FUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUser.swift; sourceTree = "<group>"; };
+		F25796A024C8157C00BAB9D5 /* Constatns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constatns.swift; sourceTree = "<group>"; };
+		F257FFF624C7423D00F7B128 /* Wchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F257FFF924C7423D00F7B128 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F257FFFB24C7423D00F7B128 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F257FFFD24C7423D00F7B128 /* WelcomVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomVC.swift; sourceTree = "<group>"; };
+		F25AA3D724CD89DE00D78C4B /* Alertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alertable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F257FFF324C7423D00F7B128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2675420BAC59334F001EBFB /* Pods_Wchat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3110CDECDDDC2E75C5994369 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				670D5D029478B5A71214A264 /* Pods_Wchat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C664832A4F45370CB7BA05C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0E56FC1D9B3872D48F9795C /* Pods-Wchat.debug.xcconfig */,
+				9E99772CED074F07B78D3E39 /* Pods-Wchat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F257969924C8135200BAB9D5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		F257969A24C8135A00BAB9D5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F257FFFF24C7423D00F7B128 /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F257969B24C8136000BAB9D5 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F257FFFD24C7423D00F7B128 /* WelcomVC.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F257969D24C8138A00BAB9D5 /* supportingFiels */ = {
+			isa = PBXGroup;
+			children = (
+				F257969E24C813AA00BAB9D5 /* FUser.swift */,
+				F25796A024C8157C00BAB9D5 /* Constatns.swift */,
+				F2523CF824CC5BAD00FF144F /* collectionRefence.swift */,
+				F2523CFA24CC63FE00FF144F /* dateformatterClass.swift */,
+			);
+			path = supportingFiels;
+			sourceTree = "<group>";
+		};
+		F257FFED24C7423D00F7B128 = {
+			isa = PBXGroup;
+			children = (
+				F257FFF824C7423D00F7B128 /* Wchat */,
+				F257FFF724C7423D00F7B128 /* Products */,
+				7C664832A4F45370CB7BA05C /* Pods */,
+				3110CDECDDDC2E75C5994369 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F257FFF724C7423D00F7B128 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F257FFF624C7423D00F7B128 /* Wchat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F257FFF824C7423D00F7B128 /* Wchat */ = {
+			isa = PBXGroup;
+			children = (
+				F25AA3D624CD89C300D78C4B /* protocol */,
+				F257969D24C8138A00BAB9D5 /* supportingFiels */,
+				F257969B24C8136000BAB9D5 /* controller */,
+				F257969A24C8135A00BAB9D5 /* view */,
+				F257969924C8135200BAB9D5 /* model */,
+				F257000224C7423F00F7B128 /* Assets.xcassets */,
+				F257FFFB24C7423D00F7B128 /* SceneDelegate.swift */,
+				F257FFF924C7423D00F7B128 /* AppDelegate.swift */,
+				F257000424C7423F00F7B128 /* LaunchScreen.storyboard */,
+				F257000724C7423F00F7B128 /* Info.plist */,
+				F257000D24C7425400F7B128 /* GoogleService-Info.plist */,
+			);
+			path = Wchat;
+			sourceTree = "<group>";
+		};
+		F25AA3D624CD89C300D78C4B /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				F25AA3D724CD89DE00D78C4B /* Alertable.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F257FFF524C7423D00F7B128 /* Wchat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F257000A24C7423F00F7B128 /* Build configuration list for PBXNativeTarget "Wchat" */;
+			buildPhases = (
+				25F9A002BD886A6FA17C2292 /* [CP] Check Pods Manifest.lock */,
+				F257FFF224C7423D00F7B128 /* Sources */,
+				F257FFF324C7423D00F7B128 /* Frameworks */,
+				F257FFF424C7423D00F7B128 /* Resources */,
+				DFE3B1539029D1337A97B5B8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wchat;
+			productName = Wchat;
+			productReference = F257FFF624C7423D00F7B128 /* Wchat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F257FFEE24C7423D00F7B128 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = pop;
+				TargetAttributes = {
+					F257FFF524C7423D00F7B128 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = F257FFF124C7423D00F7B128 /* Build configuration list for PBXProject "Wchat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F257FFED24C7423D00F7B128;
+			productRefGroup = F257FFF724C7423D00F7B128 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F257FFF524C7423D00F7B128 /* Wchat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F257FFF424C7423D00F7B128 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F257000624C7423F00F7B128 /* LaunchScreen.storyboard in Resources */,
+				F257000E24C7425400F7B128 /* GoogleService-Info.plist in Resources */,
+				F257000324C7423F00F7B128 /* Assets.xcassets in Resources */,
+				F257000124C7423D00F7B128 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25F9A002BD886A6FA17C2292 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wchat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFE3B1539029D1337A97B5B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wchat/Pods-Wchat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wchat/Pods-Wchat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wchat/Pods-Wchat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F257FFF224C7423D00F7B128 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2523CF924CC5BAD00FF144F /* collectionRefence.swift in Sources */,
+				F257FFFE24C7423D00F7B128 /* WelcomVC.swift in Sources */,
+				F2523CFB24CC63FE00FF144F /* dateformatterClass.swift in Sources */,
+				F257FFFA24C7423D00F7B128 /* AppDelegate.swift in Sources */,
+				F257FFFC24C7423D00F7B128 /* SceneDelegate.swift in Sources */,
+				F25796A124C8157C00BAB9D5 /* Constatns.swift in Sources */,
+				F25AA3D824CD89DE00D78C4B /* Alertable.swift in Sources */,
+				F257969F24C813AA00BAB9D5 /* FUser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F257000424C7423F00F7B128 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F257000524C7423F00F7B128 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F257FFFF24C7423D00F7B128 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F257000024C7423D00F7B128 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F257000824C7423F00F7B128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F257000924C7423F00F7B128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F257000B24C7423F00F7B128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0E56FC1D9B3872D48F9795C /* Pods-Wchat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Wchat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pop.Wchat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F257000C24C7423F00F7B128 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E99772CED074F07B78D3E39 /* Pods-Wchat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Wchat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pop.Wchat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F257000A24C7423F00F7B128 /* Build configuration list for PBXNativeTarget "Wchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F257000B24C7423F00F7B128 /* Debug */,
+				F257000C24C7423F00F7B128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F257FFF124C7423D00F7B128 /* Build configuration list for PBXProject "Wchat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F257000824C7423F00F7B128 /* Debug */,
+				F257000924C7423F00F7B128 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F257FFEE24C7423D00F7B128 /* Project object */;
+}

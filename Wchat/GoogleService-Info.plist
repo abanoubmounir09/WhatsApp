@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>372060949914-j3vqrg31h8v8utum5vvdaj5ftrdj8rk5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.372060949914-j3vqrg31h8v8utum5vvdaj5ftrdj8rk5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD8x-kcBUn3TEDBVjWL98N3seYBL7HbScY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>372060949914</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>pop.Wchat</string>
+	<key>PROJECT_ID</key>
+	<string>wchat-214d7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>wchat-214d7.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:372060949914:ios:5ae56406039ccc8afebe23</string>
+	<key>DATABASE_URL</key>
+	<string>https://wchat-214d7.firebaseio.com</string>
+</dict>
+</plist>
