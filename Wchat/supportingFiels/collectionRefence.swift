@@ -21,4 +21,5 @@ enum FcollectionRefence : String{
 
 func reference(_collectionRefence:FcollectionRefence)->CollectionReference{
     return Firestore.firestore().collection(_collectionRefence.rawValue)
+    //FUser.currentUser()
 }

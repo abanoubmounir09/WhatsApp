@@ -7,17 +7,43 @@
 //
 
 import UIKit
+import Firebase
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
+       
+       var authListner:AuthStateDidChangeListenerHandle?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+        
+        
+        authListner = Auth.auth().addStateDidChangeListener({ (auth, user) in
+
+                   Auth.auth().removeStateDidChangeListener(self.authListner!)
+
+                   if user != nil{
+                       if userDefaults.object(forKey: kcurrentUser) != nil{
+                           DispatchQueue.main.async {
+                               self.goToApp()
+                           }
+                       }
+                   }
+
+               })
         guard let _ = (scene as? UIWindowScene) else { return }
+    }
+    
+    func goToApp(){
+        
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: USER_DID_LOGIN_NOTIFICATION), object: nil, userInfo: [kuserId:FUser.currentUserID()! as String])
+        
+        let mainview = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(identifier: "MainApp") as! UITabBarController
+        
+        self.window?.rootViewController = mainview
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

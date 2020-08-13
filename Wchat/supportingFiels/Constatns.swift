@@ -33,8 +33,7 @@ public let KGroup_Path = "group"
 public let KCall_Path = "call"
 
 //MARK:_ Fuser
-
-public let kobjectID = "objectID"
+public let kobjectID = "id"
 public let kcreatedAt = "createdAt"
 public let kupdatedAt = "updatedAt"
 public let KpushID = "pushID"
@@ -55,7 +54,7 @@ public let kblockUser = "blockUsers"
 public let kVerficationCode = "firebase_verfication"
 
 
-   //MARK:-
+//MARK:-
 public let kbackgroundImage = "backgroundImage"
 public let kshowAvatar = "showAvatar"
 public let kpasswordProtect = "passwordProtect"
@@ -67,7 +66,7 @@ public let ksuccess = 2
 
  //MARK:- recent
 public let kchatRoomId = "chatRoomId"
-public let kuserId = "userId"
+public let kuserId = "id"
 public let kdate = "date"
 public let kprivate = "private"
 public let kgroup = "group"
@@ -77,7 +76,7 @@ public let kmembers = "members"
 public let kmessage = "message"
 public let kmembersToPush = "membersToPush"
 public let kdescription = "description"
-public let klastmesage = "lastmesage"
+public let klastmesage = "lastmessage"
 public let kcounter = "counter"
 public let ktype = "type"
 public let kuserName = "userName"
@@ -88,6 +87,8 @@ public let kstatus = "status"
 public let kmessageId = "messageId"
 public let kname = "name"
 public let ksenderId = "senderId"
+public let ksenderName = "senderName"
+
 public let kmessageName = "messageName"
 public let kthumbnail = "thumbnail"
 public let kisDeleted = "isDeleted"

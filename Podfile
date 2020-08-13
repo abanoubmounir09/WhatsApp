@@ -11,4 +11,14 @@ target 'Wchat' do
 	pod 'IQKeyboardManagerSwift'
 	pod 'Firebase/Firestore'
 	pod 'Firebase/Storage'
+  
+  	
+ 	pod 'JSQMessagesViewController', '7.3.5'
+ 	pod 'MBProgressHUD', '~> 1.1.0'
+ 	pod 'IQAudioRecorderController'
+
+
+	pod  'IDMPhotoBrowser', '1.11.3'
+
+	
 end
